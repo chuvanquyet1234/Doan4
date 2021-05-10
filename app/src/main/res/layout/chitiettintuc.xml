@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="625dp"/>
+    <LinearLayout
+        android:layout_below="@+id/webview"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_share"
+            android:id="@+id/chiase"
+            android:text="Chia sẻ"
+            android:onClick="Share"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+        <Button
+
+            android:id="@+id/btnthemxemsau"
+            android:drawableLeft="@drawable/ic_xemsau"
+            android:textAllCaps="false"
+            android:text="Xem Sau"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/btnthemyeụthich"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:textAllCaps="false"
+            android:text="Yêu Thích"
+            android:textSize="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

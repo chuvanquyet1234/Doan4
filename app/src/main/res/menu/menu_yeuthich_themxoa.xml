@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemxoayt"
+        android:title="Xóa tin đã yêu thích" />
+    <item android:id="@+id/itemxemyt"
+        android:title="Xem chi tiết tin đã yêu thích" />
+</menu>

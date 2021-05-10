@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Thêm"
+        android:id="@+id/itemthem"
+        app:showAsAction="always"/>
+    <item
+        android:title="Thêm vào xem sau"
+        android:id="@+id/xemsau"
+        app:showAsAction="never"/>
+    <item
+        android:title="Thêm vào mục yêu thích"
+        app:showAsAction="never"
+        android:id="@+id/themyeuthich"/>
+    <item
+        android:title="Chia sẻ"
+        app:showAsAction="never"
+        android:id="@+id/chiase"/>
+        />
+
+</menu>

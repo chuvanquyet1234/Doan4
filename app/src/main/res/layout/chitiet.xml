@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <LinearLayout
+        android:layout_below="@+id/webview"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_share"
+            android:text="Chia sẻ"
+            android:onClick="Share"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnluu"
+            android:drawableLeft="@drawable/ic_xemsau"
+            android:textAllCaps="false"
+            android:text="Xem Sau"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btntrove"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:textAllCaps="false"
+            android:text="Yêu Thích"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
